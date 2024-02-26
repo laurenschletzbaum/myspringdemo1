@@ -19,7 +19,6 @@ public class Book {
     private String author;
     private double price;
 
-
     public Long getId() {
         return id;
     }
