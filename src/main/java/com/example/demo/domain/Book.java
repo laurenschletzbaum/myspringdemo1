@@ -6,6 +6,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+
+// for GitHub lets make some changes
+
 @Data
 @Entity
 public class Book {
@@ -14,6 +17,7 @@ public class Book {
     private Long id;
     private String title;
     private String author;
+    private double price;
 
 
     public Long getId() {
@@ -39,4 +43,5 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+
 }
